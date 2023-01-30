@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --branco: #F6F6F6;
+    --preto: #000000;
+    --azul: #22D4FD;
+    --azul-claro: #8de3f7;
+    --fonte-titulo: 'krona one','sans-serif';
+    --fonte-texto: 'Montserrat', 'sans-serif';
+    --cinza: #272727;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+    margin: 3% 20% 0 20%;
+}
+
+.cabecalho-menu-links{
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--azul);
+}
+
+.cabecalho-menu-links:hover{
+    color: var(--azul-claro);
+}
+
+.titulo-destaque{
+    color: var(--azul);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+.container-sobre-mim{
+    gap: 96px;
+}
+
+.container-conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo-titulo{
+    font-size: 36px;
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+}
+
+.conteudo-texto{
+    font-size: 24px;
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+}
+
+.conteudo-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.conteudo-titulo-links{
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-links-botao{
+    background-color: var(--preto);
+    width: 378px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid var(--azul);
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 16px 0;
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.conteudo-links-botao:hover{
+    background-color: var(--cinza);
+}
+
+.rodape{
+    background-color: var(--azul);
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-size: 24px;
+    color: var(--preto);
+    padding: 1em;
+}
+
+.rodape-curriculo{
+    margin-top: 6em;
+}
